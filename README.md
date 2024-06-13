@@ -11,6 +11,23 @@ It should add a student, add a course and enroll a student to the database.It sh
 5. You can exit by entering the number 11
 ## Implementation Details
 The Student Management System is a Command Line Interface (CLI) application designed to manage students, courses, and enrollments. The system uses Object-Oriented Programming (OOP) principles and SQLAlchemy ORM to interact with an SQLite3 database. It supports adding students, courses, and enrollments, and retrieving information from the database.
+## Structure
+Finalproject
+│
+├── Database
+│   ├── connection.py
+│   └── setup.py
+│
+├── models
+│   ├── courses.py
+│   ├── enrollments.py
+│   └── students.py
+│
+├── Pipfile
+├── Pipfile.lock
+├── app.py
+└── README.md
+
 ## Relationships
 1. One-to-Many Relationship (Students to Enrollments):
 A student can enroll in many courses.
@@ -28,4 +45,3 @@ A course can have multiple students.
 ## Author
 This  Student Management System program was created by Elvis Moses.
 
-# Phase-3-final-project
